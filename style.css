@@ -1,0 +1,99 @@
+* {
+  transition: backroundimage 6s;
+}
+@font-face {
+  font-family: SpongeboyRegular;
+  src: url(./assets/SpongeboyRegular-gx2n6.otf);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: SpongeboyRegular;
+}
+header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(0, 27, 100);
+  margin: 0px;
+  padding: 10px;
+  background-image: url(./assets/spongebob\ sky.jpg);
+  color: rgb(0, 27, 100);
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+header a {
+  color: rgb(0, 27, 100);
+  text-decoration: none;
+}
+
+.nothing {
+  height: 77px;
+}
+#Home {
+  background-image: url(./assets/pineapplehouse2.png);
+  background-size: 100vw 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 99.1vw;
+  height: 99vh;
+  border-bottom: 2px solid rgb(0, 27, 100);
+  color: rgb(14, 55, 167);
+}
+.Hometexts {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+button {
+  background-color: transparent;
+  border: solid rgb(255, 255, 255);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-family: SpongeboyRegular;
+}
+
+#Pricing {
+  background-image: url(./assets/galleygrub.jpg);
+  background-size: 100vw 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 99.1vw;
+  height: 99vh;
+  border-bottom: 2px solid rgb(0, 27, 100);
+  color: rgb(0, 0, 0);
+}
+#Locations {
+  background-image: url(./assets/bikinibottom.png);
+  background-size: 100vw 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 99.1vw;
+  height: 99vh;
+  border-bottom: 2px solid rgb(0, 27, 100);
+  color: rgb(0, 0, 0);
+}
+.Pricingtexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
