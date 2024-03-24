@@ -1,9 +1,13 @@
 * {
   transition: backroundimage 6s;
+  scroll-behavior: smooth;
 }
 @font-face {
   font-family: SpongeboyRegular;
   src: url(./assets/SpongeboyRegular-gx2n6.otf);
+}
+button {
+  cursor: pointer;
 }
 body {
   margin: 0px;
@@ -96,4 +100,20 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 10px;
+}
+
+#Locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#locationsimages {
+  width: 800px;
+  height: 600px;
+}
+.locationname {
+  position: absolute;
+  bottom: -1800px;
+  right: 425px;
 }

@@ -8,6 +8,7 @@ const anchor3 = document.getElementById("anchorlocations");
 const anchor4 = document.getElementById("anchorabout");
 const anchor5 = document.getElementById("anchorcontact");
 const Locations = document.getElementById("Locations");
+const locationsimages = document.getElementById("locationsimages");
 let light = 0;
 lightlevel.addEventListener("click", function () {
   if (light === 0) {
